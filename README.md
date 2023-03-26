@@ -1,7 +1,7 @@
 1 - Alquilar:
 
-        - Nos a mandó una empresa gestionar un diseño de un software de alquler de videojuegos y compras de Informática
-	- Para cada videojuego, conocemos **marca**, **modelo** y **numeroSerie**. 
+   	- Nos a mandó una empresa gestionar un diseño de un software de alquler de videojuegos y compras de Informática
+   	- Para cada videojuego, conocemos **marca**, **modelo** y **numeroSerie**. 
 	- Los videojuegos alquilan **consolas**, **Juegos** y **Accesorios**.
 	- Para las consolas alamcenamos (**nombreConsola** y **companinha**), 
 	- juegos (**nombreJuego**, **genero**) y Para accesorios (**nombreAccesorio**).
@@ -11,7 +11,7 @@
 	
 2 - Compra:
 
-       	- Para cada articulo de informática, conocemos **marca**, **modelo**, **categoría**. 
+  	- Para cada articulo de informática, conocemos **marca**, **modelo**, **categoría**. 
 	- Los articulos de Informática que se compran **ordenadores**, **componentes** y **Accesorios**. 
 	- Los ordenadores almacenamos (**nombreOrdenaodor** y **características**), 
 	componentes (**nombreComponente** y **características**) y Accesorios (**nombreArtículo**).
