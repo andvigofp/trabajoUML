@@ -31,6 +31,7 @@
 	 - Esta compuesto por cliente: **carritoCompra** y **pedido**
 	 - Pedido guardaremos (**id**, **dataCreacion**, **dataCompra**, **nombreCliente**, **estado**, **idCompra**), 
 	 realizarPedido().
+	 
 	 - CarritoCompra guardaremos (**carritoId**, **idProducto**, **cantidadProducto**, **fecha**), 
 	  actualizarCarrito(), actualizarCantidad(), detallesCantidad(), verificar()
 	 - Esta compuesto por pedido: **informacionEnvio** y **detallesPedido**
