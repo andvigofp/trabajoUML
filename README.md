@@ -9,7 +9,7 @@
 	(**nombre**, **apellidos**, **direccion**, **teléfono**, **dni** y **e-mail**).
 	
 2 - Compra:
-    - Para cada articulo de informática, conocemos **marca**, **modelo**, **categoría**. 
+       	 - Para cada articulo de informática, conocemos **marca**, **modelo**, **categoría**. 
 	- Los articulos de Informática que se compran **ordenadores**, **componentes** y **Accesorios**. 
 	- Los ordenadores almacenamos (**nombreOrdenaodor** y **características**), 
 	componentes (**nombreComponente** y **características**) y Accesorios (**nombreArtículo**).
@@ -19,15 +19,15 @@
    ![carpetas iniciales](diagramas/tienda_UML.svg)
    
 3 - Tienda Online
-	- Una empresa nos mandó gestionar un diseño de una tienda online.
-	Un cliente guardaremos (**nombre**, **direccion**, **e-mail**, **infoTarjetaCredito**, **infoCompra** y **saldo**), 
-	registar(), inciar() y actualizarPerfil().
+	 - Una empresa nos mandó gestionar un diseño de una tienda online.
+	 Un cliente guardaremos (**nombre**, **direccion**, **e-mail**, **infoTarjetaCredito**, **infoCompra** y **saldo**), 
+	 registar(), inciar() y actualizarPerfil().
 	
-	- Usario guardaremos (**idusuario**, **password**, **estadoLogin**, **dataRegistro**), verifcarLogin().
+         - Usario guardaremos (**idusuario**, **password**, **estadoLogin**, **dataRegistro**), verifcarLogin().
 	- Adminsitrador guardaremos (**nombreAdmin**, **e-mail**), actualizarCatálogo().
 	- Esta compuesto por cliente: **carritoCompra** y **pedido**
 	- Pedido guardaremos (**id**, **dataCreacion**, **dataCompra**, **nombreCliente**, **estado**, **idCompra**), 
-	realizarPedido().
+	 realizarPedido().
 	
 	- CarritoCompra guardaremos (**carritoId**, **idProducto**, **cantidadProducto**, **fecha**), 
 	actualizarCarrito(), actualizarCantidad(), detallesCantidad(), verificar()
@@ -35,8 +35,8 @@
 	- informacionEnvio guardaremos (**idCompra**, **tipoCompra**, **costeCompra**, **compraRegionalId**), 
 	actualizarCompra().
 	- detallesPedido guardaremos (**idOrden**, **idProducto**, **nombreProducto**, 
-	**cantidad**, **precioProducto**, **totalPedido**), calcularPrecio().
+  	**cantidad**, **precioProducto**, **totalPedido**), calcularPrecio().
 	
 	
-	 ![carpetas iniciales](diagramas/Tienda_Online_UML.svg)
+   ![carpetas iniciales](diagramas/Tienda_Online_UML.svg)
 	
