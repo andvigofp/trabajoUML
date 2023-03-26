@@ -1,19 +1,19 @@
 1 - Alquilar:
     - Nos a mandó una empresa gestionar un diseño de un software de alquler de videojuegos y compras de Informática
-	Para cada videojuego, conocemos **marca**, **modelo** y **numeroSerie**. 
-	Los videojuegos alquilan **consolas**, **Juegos** y **Accesorios**.
-	Para las consolas alamcenamos (**nombreConsola** y **companinha**), 
-	juegos (**nombreJuego**, **genero**) y Para accesorios (**nombreAccesorio**).
+	- Para cada videojuego, conocemos **marca**, **modelo** y **numeroSerie**. 
+	- Los videojuegos alquilan **consolas**, **Juegos** y **Accesorios**.
+	- Para las consolas alamcenamos (**nombreConsola** y **companinha**), 
+	- juegos (**nombreJuego**, **genero**) y Para accesorios (**nombreAccesorio**).
 	Cada vez que se guarde **fechaIncio**, **fechaFin**, si ha sido **entregado** y **precioAlquiler**.
-	Los videojuegos podrán alquilarse por usuarios de los guardaremos el 
+	- Los videojuegos podrán alquilarse por usuarios de los guardaremos el 
 	(**nombre**, **apellidos**, **direccion**, **teléfono**, **dni** y **e-mail**).
 	
 2 - Compra:
     - Para cada articulo de informática, conocemos **marca**, **modelo**, **categoría**. 
-	Los articulos de Informática que se compran **ordenadores**, **componentes** y **Accesorios**. 
-	Los ordenadores almacenamos (**nombreOrdenaodor** y **características**), 
+	- Los articulos de Informática que se compran **ordenadores**, **componentes** y **Accesorios**. 
+	- Los ordenadores almacenamos (**nombreOrdenaodor** y **características**), 
 	componentes (**nombreComponente** y **características**) y Accesorios (**nombreArtículo**).
-	Los artículos de informática podrán comprarse por usuarios de los guardaremos el 
+	- Los artículos de informática podrán comprarse por usuarios de los guardaremos el 
 	(**nombre**, **apellidos**, **direccion**, **teléfono**, **dni** y **e-mail**)	
    
    ![carpetas iniciales](img/1.png)
