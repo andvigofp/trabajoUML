@@ -16,17 +16,19 @@
 	- Los artículos de informática podrán comprarse por usuarios de los guardaremos el 
 	(**nombre**, **apellidos**, **direccion**, **teléfono**, **dni** y **e-mail**)	
    
-   ![carpetas iniciales](img/1.png)
+   ![carpetas iniciales](diagramas/tienda_UML.svg)
    
 3 - Tienda Online
 	- Una empresa nos mandó gestionar un diseño de una tienda online.
 	Un cliente guardaremos (**nombre**, **direccion**, **e-mail**, **infoTarjetaCredito**, **infoCompra** y **saldo**), 
 	registar(), inciar() y actualizarPerfil().
+	
 	- Usario guardaremos (**idusuario**, **password**, **estadoLogin**, **dataRegistro**), verifcarLogin().
 	- Adminsitrador guardaremos (**nombreAdmin**, **e-mail**), actualizarCatálogo().
 	- Esta compuesto por cliente: **carritoCompra** y **pedido**
 	- Pedido guardaremos (**id**, **dataCreacion**, **dataCompra**, **nombreCliente**, **estado**, **idCompra**), 
 	realizarPedido().
+	
 	- CarritoCompra guardaremos (**carritoId**, **idProducto**, **cantidadProducto**, **fecha**), 
 	actualizarCarrito(), actualizarCantidad(), detallesCantidad(), verificar()
 	- Esta compuesto por pedido: **informacionEnvio** y **detallesPedido**
@@ -35,5 +37,6 @@
 	- detallesPedido guardaremos (**idOrden**, **idProducto**, **nombreProducto**, 
 	**cantidad**, **precioProducto**, **totalPedido**), calcularPrecio().
 	
-	![carpetas iniciales](img/2.png)
+	
+	 ![carpetas iniciales](diagramas/Tienda_Online_UML.svg)
 	
