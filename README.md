@@ -21,6 +21,10 @@
    
    ![carpetas iniciales](diagramas/tienda_UML.svg)
    
+   -----------------------------------------------
+   
+   ![carpetas iniciales](diagramas/tienda_UML_abstract.svg)
+   
 3 - Tienda Online
 
    - Una empresa nos mandó gestionar un diseño de una tienda online.
